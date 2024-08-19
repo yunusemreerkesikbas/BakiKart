@@ -1,0 +1,169 @@
+/* style.css File */
+.macbook-pro {
+  width: 1728px;
+  height: 4358px;
+  position: relative;
+  background: #f9f9f9;
+}
+
+.content-wrapper {
+  width: 1430px;
+  height: 3276px;
+  left: 149px;
+  top: 682px;
+  position: absolute;
+  background: white;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.20);
+  border-radius: 8px;
+}
+
+.header-banner {
+  width: 1728px;
+  height: 450px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: linear-gradient(139deg, #D4E5FA 0%, #EEEEE2 100%);
+}
+
+.card-banner {
+  width: 1430px;
+  height: 500px;
+  left: 149px;
+  top: 162px;
+  position: absolute;
+  background: white;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.30);
+  border-radius: 8px;
+}
+
+.footer {
+  width: 1728px;
+  height: 350px;
+  position: absolute;
+  top: 4008px;
+}
+
+.footer-background {
+  background: #253758;
+  backdrop-filter: blur(30px);
+}
+
+.footer-divider {
+  width: 1430px;
+  height: 0px;
+  border: 1px rgba(255, 255, 255, 0.20) solid;
+}
+
+.language-switcher, .login-switcher {
+  height: 30px;
+  padding: 6px 8px 5px;
+  border-radius: 4px;
+  border: 1.5px white solid;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+}
+
+.language-icon, .login-icon {
+  width: 13.1px;
+  height: 13.1px;
+  border: 1px #DC4143 solid;
+}
+
+.login-icon-alt {
+  width: 11px;
+  height: 13px;
+  border: 1.2px #DC4143 solid;
+}
+
+.language-text, .login-text {
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  font-family: Avenir Next;
+  font-weight: 700;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+
+.footer-links, .policy-links {
+  display: flex;
+  position: absolute;
+}
+
+.footer-link-item, .policy-item {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.80);
+  font-size: 11px;
+  font-family: Avenir Next;
+  font-weight: 600;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+
+.footer-text {
+  color: rgba(255, 255, 255, 0.80);
+  font-size: 11px;
+  font-family: Avenir Next;
+  font-weight: 600;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+
+.footer-logo, .header-logo {
+  position: absolute;
+}
+
+.footer-img-wrapper {
+  position: absolute;
+}
+
+.footer-img-background {
+  background: #D9D9D9;
+  border-radius: 3px;
+}
+
+.footer-img {
+  position: absolute;
+}
+
+.content-img, .content-img-large, .content-img-border {
+  position: absolute;
+}
+
+.centered-image {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-bar {
+  position: absolute;
+  top: 52px;
+}
+
+.header-bar-bg {
+  width: 1430px;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.20);
+  border-radius: 8px;
+  backdrop-filter: blur(30px);
+}
+
+.nav-links {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  text-align: center;
+  color: #253758;
+  font-size: 13px;
+  font-family: Avenir Next;
+  font-weight: 700;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
